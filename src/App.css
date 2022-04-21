@@ -8,6 +8,14 @@
   display: flex;
   justify-content: space-evenly;
 }
+h3 {
+  box-sizing: content-box;
+  width: 100%;
+  border: solid black 6px;
+  
+  background-color: blue;
+  color: #FFFF8F;
+}
 
 .App-logo {
   height: 40vmin;
@@ -20,6 +28,8 @@ img {
 
 h1 {
   color: blue;
+  text-shadow: 3px 3px black;
+  font-size: 4.2rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,5 +1,6 @@
 import React from "react";
 import Fact from "./fact";
+import { connect } from "react-redux";
 
 const CatFactList = props => {
     const { facts } = props;
@@ -13,4 +14,10 @@ const CatFactList = props => {
     </div>)
 };
 
-export default CatFactList;
+const mapStateToProps = (state) => {
+    return {
+        facts: state.facts
+    }
+}
+
+export default connect(mapStateToProps)(CatFactList);

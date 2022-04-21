@@ -4,7 +4,7 @@ const Fact = (props) => {
     const { fact } = props;
 
     return(<div className="fact">
-        <h3>CF: {fact.fact}</h3>
+        <h3>-{fact.fact}</h3>
     </div>)
 }
 

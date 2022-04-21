@@ -1,10 +1,25 @@
 .App {
   text-align: center;
 }
+*{
+  background-color: #FFFF8F;
+}
+.catPic {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+img {
+  border-radius: 50%;
+  width: 20vw;
+}
+
+h1 {
+  color: blue;
 }
 
 @media (prefers-reduced-motion: no-preference) {
